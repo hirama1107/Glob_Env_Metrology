@@ -44,7 +44,7 @@ MONTH, DAYは二桁で指定しないとバグる。
 
 # 使い方
 シェルスクリプト内のParametersをいじってあとは`source XXXX.sh`で実行。
-wdにはassinmentをダウンロードしたディレクトリを指定。
+wdにはassinmentのディレクトリを指定。
 うまくいけばdata, outputというディレクトリが作成される。
 outputには計6個の画像が出力される。
 ※ライブラリエラーが出たらpip install
