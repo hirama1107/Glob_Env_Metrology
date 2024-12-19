@@ -131,8 +131,8 @@ def load_save_binary(ipdir_red, ipdir_nir, svdir_red, svdir_nir, svdir_ndvi, img
     plot_image(red, svdir_red, vmin=0.0, vmax=0.4, range_min=0.0, range_max=1.0, imgX=imgX, imgY=imgY, label="Reflectance (RED)")
     plot_image(nir, svdir_nir, vmin=0.0, vmax=0.4, range_min=0.0, range_max=1.0, imgX=imgX, imgY=imgY, label="Reflectance (NIR)")
     plot_image(ndvi, svdir_ndvi, vmin=0.0, vmax=1.0, range_min=0.0, range_max=1.0, imgX=imgX, imgY=imgY, label="NDVI")
-    plot_image(ndvi, svdir_red, vmin=0.0, vmax=0.4, range_min=0.0, range_max=1.0, imgX=imgX, imgY=imgY, crop_size=301, label="Reflectance (RED)")
-    plot_image(ndvi, svdir_nir, vmin=0.0, vmax=0.4, range_min=0.0, range_max=1.0, imgX=imgX, imgY=imgY, crop_size=301, label="Reflectance (NIR)")
+    plot_image(red, svdir_red, vmin=0.0, vmax=0.4, range_min=0.0, range_max=1.0, imgX=imgX, imgY=imgY, crop_size=301, label="Reflectance (RED)")
+    plot_image(nir, svdir_nir, vmin=0.0, vmax=0.4, range_min=0.0, range_max=1.0, imgX=imgX, imgY=imgY, crop_size=301, label="Reflectance (NIR)")
     plot_image(ndvi, svdir_ndvi, vmin=0.0, vmax=1.0, range_min=0.0, range_max=1.0, imgX=imgX, imgY=imgY, crop_size=301, label="NDVI")
 
     return
